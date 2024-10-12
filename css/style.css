@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    text-align: center;
+}
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #666;
+}
+#labirinto {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto 20px;
+    position: relative;
+    background-color: #ddd;
+    border: 2px solid #333;
+}
+#jogador {
+    width: 20px;
+    height: 20px;
+    background-color: #ff4444;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    transition: all 0.2s;
+}
+.parede {
+    position: absolute;
+    background-color: #333;
+}
+#meta {
+    width: 30px;
+    height: 30px;
+    background-color: #44ff44;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 50%;
+}
+#mensagem {
+    font-weight: bold;
+    margin-top: 10px;
+    min-height: 20px;
+}
